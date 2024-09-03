@@ -20,7 +20,11 @@
     "php": "^8.2",
     "illuminate/support": "^10.0|^11.0",
     "illuminate/container": "^10.0|^11.0",
-    "illuminate/events": "^10.0|^11.0"
+    "illuminate/events": "^10.0|^11.0",
+    "textalk/websocket": "^1.5",
+    "laravel/prompts": "^0.1.25",
+    "propaganistas/laravel-phone": "^5.3",
+    "saloonphp/saloon": "^3.0"
   },
   "require-dev": {
     "orchestra/testbench": "^9.4",
@@ -38,9 +42,23 @@
   },
   "autoload-dev": {
     "psr-4": {
+      "UseTheFork\\Synapse\\Tests\\": "tests/",
       "Workbench\\App\\": "workbench/app/",
       "Workbench\\Database\\Factories\\": "workbench/database/factories/",
       "Workbench\\Database\\Seeders\\": "workbench/database/seeders/"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "UseTheFork\\Signal\\": "src/",
+      "UseTheFork\\Signal\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "UseTheFork\\Signal\\SignalServiceProvider"
+      ]
     }
   },
   "scripts": {
