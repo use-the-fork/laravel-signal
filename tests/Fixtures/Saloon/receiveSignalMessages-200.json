@@ -1,0 +1,11 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Content-Length": "1327",
+    "Content-Type": "text/plain; charset=utf-8",
+    "Date": "Mon, 23 Sep 2024 00:37:43 GMT",
+    "Server": "Caddy"
+  },
+  "data": "[{\"envelope\":{\"source\":\"+18889997777\",\"sourceNumber\":\"+18889997777\",\"sourceUuid\":\"125a5c22-563f-41df-876c-7272c3d59d15\",\"sourceName\":\"Greg L\",\"sourceDevice\":1,\"timestamp\":1727051785937,\"dataMessage\":{\"timestamp\":1727051785937,\"message\":\"Rest\",\"expiresInSeconds\":0,\"viewOnce\":false}},\"account\":\"+18889997777\"},{\"envelope\":{\"source\":\"+18609907850\",\"sourceNumber\":\"+18609907850\",\"sourceUuid\":\"125a5c22-563f-41df-876c-7272c3d59d15\",\"sourceName\":\"Greg L\",\"sourceDevice\":1,\"timestamp\":1727051787283,\"dataMessage\":{\"timestamp\":1727051787283,\"message\":\"Test\",\"expiresInSeconds\":0,\"viewOnce\":false}},\"account\":\"+18889997777\"},{\"envelope\":{\"source\":\"+18609907850\",\"sourceNumber\":\"+18609907850\",\"sourceUuid\":\"125a5c22-563f-41df-876c-7272c3d59d15\",\"sourceName\":\"Greg L\",\"sourceDevice\":1,\"timestamp\":1727051788873,\"dataMessage\":{\"timestamp\":1727051788873,\"message\":\"Best\",\"expiresInSeconds\":0,\"viewOnce\":false}},\"account\":\"+18889997777\"},{\"envelope\":{\"source\":\"+18609907850\",\"sourceNumber\":\"+18609907850\",\"sourceUuid\":\"125a5c22-563f-41df-876c-7272c3d59d15\",\"sourceName\":\"Greg L\",\"sourceDevice\":1,\"timestamp\":1727051790238,\"dataMessage\":{\"timestamp\":1727051790238,\"message\":\"Lest\",\"expiresInSeconds\":0,\"viewOnce\":false}},\"account\":\"+18889997777\"},SLF4J(I): Connected with provider of type [ch.qos.logback.classic.spi.LogbackServiceProvider]]"
+}

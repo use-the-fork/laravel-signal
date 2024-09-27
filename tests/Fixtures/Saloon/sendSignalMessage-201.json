@@ -1,0 +1,11 @@
+{
+    "statusCode": 201,
+    "headers": {
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Content-Length": "118",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Date": "Sun, 22 Sep 2024 22:55:35 GMT",
+        "Server": "Caddy"
+    },
+    "data": "{}"
+}

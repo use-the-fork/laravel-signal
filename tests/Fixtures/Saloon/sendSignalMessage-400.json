@@ -1,0 +1,11 @@
+{
+    "statusCode": 400,
+    "headers": {
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Content-Length": "180",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Date": "Sun, 22 Sep 2024 22:58:51 GMT",
+        "Server": "Caddy"
+    },
+    "data": "{\"error\":\"Invalid account (phone number), make sure you include the country code.\\n\"}"
+}

@@ -11,6 +11,7 @@
       perSystem = {
         config,
         lib,
+        pkgs,
         ...
       }: let
         serv = config.snow-blower.services;
@@ -24,6 +25,7 @@
         unsetEnv = builtins.concatStringsSep "\n" (
           map (key: "unset ${key}") envKeys
         );
+
       in {
         snow-blower = {
           paths.src = ./.;

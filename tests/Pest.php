@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
-  use UseTheFork\Signal\Tests\TestCase;
+use Saloon\Http\Faking\MockClient;
+use UseTheFork\Signal\Tests\TestCase;
 
-  uses(TestCase::class)->in(__DIR__);
+uses(TestCase::class)
+    ->beforeEach(fn () => MockClient::destroyGlobal())
+    ->in(__DIR__);
